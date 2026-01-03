@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saniya Nalge | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>Saniya Nalge</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="profile_pic.jpeg" alt="Saniya Nalge" class="profile-photo">
+        <h2>Hi, I'm Saniya </h2>
+        <p>Aspiring Software Engineer & Tech Enthusiast</p>
+        <p>Learn. Code. Build. Repeat.</p>
+        <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>
+            Hello! I’m Saniya Sandeep Nalge, a third-year Computer Engineering student at MET Bhujbal Knowledge City,
+            Institute of Technology, Adgaon, Nashik. I am passionate about technology and enjoy building efficient,
+            user-centric solutions that blend creativity with logical thinking. I am continuously enhancing my
+            problem-solving skills and actively seeking opportunities to gain real-world industry exposure through
+            internships, hands-on projects, and collaborative development experiences.<br><br>
+            <strong>🛠️ Skills:</strong><br>
+            HTML, CSS, JavaScript, Python, SQL, and strong problem-solving fundamentals.
+            <br><br>
+            <strong>🚀 Learning & Building:</strong><br>
+            Actively working on academic and personal projects to strengthen my skills in full-stack development and
+            AI-based applications.
+            <br><br>
+            <strong>🏆 Activities:</strong><br>
+            Active participant in hackathons, workshops, and technical events.
+            <br><br>
+            <strong>🌱 Believer In:</strong><br>
+            Continuous learning, consistency, and growth through hands-on experience and collaboration.
+        </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="card">
+        <h2>Educational Details</h2>
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Institution</th>
+                        <th>Passing Year</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10th Standard</td>
+                        <td>St. Columba Girls High School, Mumbai</td>
+                        <td>2021</td>
+                        <td>96%</td>
+                    </tr>
+                    <tr>
+                        <td>12th Standard</td>
+                        <td>HPT Arts and RYK Sience Junior College, Nashik</td>
+                        <td>2023</td>
+                        <td>75%</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor's Degree</td>
+                        <td>MET BKC Institute of Technology, Nashik</td>
+                        <td>2027</td>
+                        <td>Currently Pursuing
+                            <br>SGPAs >= 8.5
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="card">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <!-- Programming -->
+            <div class="skill-card">
+                <div class="skill-icon">&lt;/&gt;</div>
+                <h3>Programming</h3>
+                <p>C, C++, Python, Java</p>
+            </div>
+            <!-- Web Development -->
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, Bootstrap</p>
+            </div>
+            <!-- Backend & Database -->
+            <div class="skill-card">
+                <div class="skill-icon">🗄️</div>
+                <h3>Backend & Database</h3>
+                <p>MySQL, MongoDB</p>
+            </div>
+            <!-- Core Concepts -->
+            <div class="skill-card">
+                <div class="skill-icon">🧠</div>
+                <h3>Core Concepts</h3>
+                <p>DSA, OOP, DBMS, Software Engineering</p>
+            </div>
+            <!-- Soft Skills -->
+            <div class="skill-card">
+                <div class="skill-icon">👥</div>
+                <h3>Soft Skills</h3>
+                <p>Leadership, Communication, Teamwork, Research</p>
+            </div>
+            <!-- Tools/Technologies -->
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>Tools/Technologies</h3>
+                <p>Git/GitHub, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="card">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+
+                <h3>TrustFix - Home Service Platform</h3>
+                <p class="year">2024</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                </div>
+                <button class="view-btn" onclick="toggleDetails(this)">View Details</button>
+                <p class="project-desc"><br>TrustFix – Home Service Finder Application
+                    <br>Developed a dual-dashboard platform with role-based login for Users and Details Professionals
+                    using Next.js and React Context for state management.<br>
+                    <br>Implemented service listing, profile creation, and booking workflows with a modular UI built
+                    using Tailwind CSS and Axios for API communication.<br>
+                    <br>Built a secure backend using Node.js and Express.js with JWT authentication, Bcrypt hashing, and
+                    MongoDB for data persistence.<br>
+                    <br>Integrated Nodemailer for email notifications and optimized API performance for scalable
+                    user–professional interactions.
+                </p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+
+                <h3>PhytoSense – AI-Powered Crop Advisory System</h3>
+                <p class="year">2024</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Backend</span>
+                </div>
+                <button class="view-btn" onclick="toggleDetails(this)">View Details</button>
+                <p class="project-desc"><br>PhytoSense – AI-Powered Crop Advisory System<br>
+
+                    <br>Designed and developed an AI-powered crop advisory application aimed at supporting farmers with
+                    data-driven agricultural insights.<br>
+
+                    <br>Implemented a crop disease detection module using image analysis to identify plant diseases at
+                    early stages.<br>
+
+                    <br>Integrated real-time weather APIs to deliver location-specific forecasts and recommendations for
+                    improved crop planning.<br>
+
+                    <br>Developed a multilingual chatbot to provide instant, easy-to-understand guidance, making the
+                    system accessible to users from diverse linguistic backgrounds.<br>
+
+                    <br>Focused on creating a user-friendly and scalable solution to address real-world agricultural
+                    challenges through intelligent automation.<br>
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+
+            <h3>Student Management System</h3>
+            <p class="year">2025</p>
+            <div class="tech-stack">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Database</span>
+                <span class="tech-tag">CRUD</span>
+            </div>
+            <button class="view-btn" onclick="toggleDetails(this)">View Details</button>
+            <p class="project-desc"><br>Student Registration System
+
+                <br>Built a desktop-based application using Python (PyQt5) and MySQL to manage student records
+                efficiently.<br>
+
+                <br>Implemented secure authentication and core CRUD operations (add, update, view student data).<br>
+
+                <br>Designed a user-friendly GUI with proper input validation and error handling.<br>
+
+                <br>Applied DBMS concepts including ER modeling, primary keys, and normalization up to 3NF.<br>
+            </p>
+        </div>
+    </section>
+
+    <script>
+        function toggleDetails(button) {
+            const card = button.closest('.project-card');
+            const desc = card.querySelector('.project-desc');
+            const isVisible = desc.style.display === 'block';
+
+            // Reset all others (Optional, usually better for UX to only show one at a time)
+            document.querySelectorAll('.project-desc').forEach(d => d.style.display = 'none');
+            document.querySelectorAll('.view-btn').forEach(b => b.textContent = 'View Details');
+
+            if (!isVisible) {
+                desc.style.display = 'block';
+                button.textContent = 'Hide Details';
+            } else {
+                desc.style.display = 'none';
+                button.textContent = 'View Details';
+            }
+        }
+    </script>
+
+    <!-- Certifications / Achievements -->
+    <section id="certifications" class="card">
+        <h2>Achievements & Certifications</h2>
+        <div class="cert-grid">
+            <!-- Certificate 1 -->
+            <div class="cert-card">
+                <img src="cert1.jpeg" alt="Certificate 1" class="cert-img">
+                <div class="cert-overlay">
+                    <span class="view-text">Click to view</span>
+                </div>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="cert-card">
+                <img src="cert2.jpeg" alt="Certificate 2" class="cert-img">
+                <div class="cert-overlay">
+                    <span class="view-text">Click to view</span>
+                </div>
+            </div>
+            <!-- Certificate 3 -->
+            <div class="cert-card">
+                <img src="cert3.jpeg" alt="Certificate 3" class="cert-img">
+                <div class="cert-overlay">
+                    <span class="view-text">Click to view</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card">
+        <h2>Contact Me</h2>
+        <p class="section-tagline">Let's connect and collaborate</p>
+        <div class="contact-container">
+            <!-- Email -->
+            <div class="contact-item">
+                <a href="mailto:saniyanalge09@gmail.com" class="icon-circle email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <p>Email</p>
+            </div>
+            <!-- LinkedIn -->
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/in/saniya-nalge-48727b36a" target="_blank"
+                    class="icon-circle linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <!-- GitHub -->
+            <div class="contact-item">
+                <a href="https://github.com/SaniyaNalge" target="_blank" class="icon-circle github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Saniya Nalge | BE Computer Enginneering</p>
+    </footer>
+
+</body>
+
+</html>
